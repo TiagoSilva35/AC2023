@@ -12,7 +12,7 @@ j exit
 toLower:
 	lbu $t1, 0($a0)
 	beq  $t1, $zero, end
-	bgt $t1, 0x41, change
+	blt $t1, 0x41, else
 	change:
 		bgt $t1, 0x5A, else
 		ori $t1, 0x20
