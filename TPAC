@@ -1,0 +1,25 @@
+4.
+	miss penalty -> 50ns
+	hit time -> 5ns
+	miss rate -> 0.15
+
+	1/((1 - 0.85) + 0.85/10) = 4.255
+
+5.
+	memoria -> 32 blocos
+	cache -> 8 blocos
+
+	a) 5º bloco -> índice 4
+	b) 1º bloco -> índice 0
+	c) qualquer um (?)
+
+6.
+
+	main memo -> 2 Gb
+	cache memo -> 1 Mb
+	cache block memo -> 128 bytes
+	cache ammount : 2^20 / 2^7 = 2^13
+
+	a)2^13
+	b) i)2^13 ii)2^12 iii)2^10 iv)2^13
+	   
